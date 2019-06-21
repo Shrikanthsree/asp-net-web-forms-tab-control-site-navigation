@@ -8,6 +8,9 @@
 * [SiteMap.xml](./CS/WebSite14/SiteMap.xml) (VB: [SiteMap.xml](./VB/WebSite14/SiteMap.xml))
 <!-- default file list end -->
 # How to use an ASPxTabControl for site navigation
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1308/)**
+<!-- run online end -->
 
 
 <p>This sample demonstrates how to use an ASPxTabControl and ContentPlaceHolder for site navigation. When a tab is clicked, a new page is loaded into a place holder. This approach can be used to emulate a dynamic PageControl.</p>
