@@ -9,6 +9,9 @@
 * [Page2.aspx.cs](./CS/WebSite14/Page2.aspx.cs) (VB: [Page2.aspx.vb](./VB/WebSite14/Page2.aspx.vb))
 <!-- default file list end -->
 # How to use an ASPxTabControl for site navigation
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1308/)**
+<!-- run online end -->
 
 
 <p>This sample demonstrates how to use an ASPxTabControl and ContentPlaceHolder for site navigation. When a tab is clicked, a new page is loaded into a place holder. This approach can be used to emulate a dynamic PageControl.</p>
