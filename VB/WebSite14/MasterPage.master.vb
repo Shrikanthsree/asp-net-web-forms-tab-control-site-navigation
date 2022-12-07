@@ -9,14 +9,14 @@ Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.Web.UI.WebControls.WebParts
 Imports System.Web.UI.HtmlControls
-Imports DevExpress.Web.ASPxTabControl
+Imports DevExpress.Web
 
 Partial Public Class MasterPage
 	Inherits System.Web.UI.MasterPage
 	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 
 	End Sub
-	Protected Sub tcDemos_TabDataBound(ByVal source As Object, ByVal e As DevExpress.Web.ASPxTabControl.TabControlEventArgs)
+	Protected Sub tcDemos_TabDataBound(ByVal source As Object, ByVal e As DevExpress.Web.TabControlEventArgs)
 		Dim tab As Tab = TryCast(e.Tab, Tab)
 		If tab Is Nothing Then
 			Return

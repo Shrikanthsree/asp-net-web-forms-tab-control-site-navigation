@@ -8,7 +8,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
-using DevExpress.Web.ASPxTabControl;
+using DevExpress.Web;
 
 public partial class MasterPage : System.Web.UI.MasterPage
 {
@@ -16,7 +16,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
     {
 
     }
-    protected void tcDemos_TabDataBound(object source, DevExpress.Web.ASPxTabControl.TabControlEventArgs e) {
+    protected void tcDemos_TabDataBound(object source, DevExpress.Web.TabControlEventArgs e) {
         Tab tab = e.Tab as Tab;
         if(tab == null) return;
         e.Tab.Name = ResolveClientUrl(tab.NavigateUrl);
